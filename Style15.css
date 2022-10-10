@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+lfwf{
+    display: inline-block;
+}
+.lfwf h2{
+    padding-left: 30px;
+}
+
+
+
+.menu ul{
+  background-color: cyan;
+ 
+  text-align: right;
+}
+
+.menu ul li{
+    
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    
+}
+
+.menu ul li a:hover{
+    background-color:black;
+    text-decoration: none;
+   border: 1px none;
+    
+}
+
+
+
+.header-img{
+    background-image: url("https://i.ibb.co/D8T80xg/header-bg01.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+  text-align: center;
+}
+
+
+
+.header-img a{
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+} 
+
+.header-img a:hover{
+    background-color: black;
+}
+
+
+
+.services .contant{
+    text-align: center;
+    background-image: url(./header-bg01.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+
+
+.service h1{
+    text-align: center;
+}
+
+.service p{
+    text-align: center;
+}
+
+
+
+.design{
+    display: inline-block;
+    width: 250px;
+    margin-top: 70px;
+    padding: 30px 15px 30px 15px;
+    text-align: center;
+    margin: 30px;
+}
+.design i{
+    color: aqua;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.design h2, p{
+    color: rgb(83, 83, 83);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* about section */
+.about{
+    width: 1200px;
+    padding: 70px 0;
+    margin: auto;
+    text-align: center;
+}
+.about h2, p{
+    text-align: center;
+}
+.about h2{
+    font-size: 35px;
+}
+.aboutitems{
+    display: inline-block;
+    margin-top: 40px;
+}
+.aboutitems img{
+    width: 480px;
+    height: auto;
+    display: inline-block;
+    margin-right: 30px;
+}
+.about-text{
+    display: inline-block;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.div1 h3{
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 25px;
+    margin-top: 15px;
+    color: rgb(146, 145, 145);
+}
+.div1 p{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+
+
+.contactsec{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 150px;
+    background: rgb(230, 230, 230);
+}
+.contactsec h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.aiv1{
+    display: inline-block;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+.aiv1:last-child{
+    margin-right: 0;
+}
+.aiv1 i{
+    color: aqua;
+    margin-bottom: 10px;
+}
+.aiv1 span{
+    color: rgb(78, 78, 78);
+}
+.aiv1 h5{
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* social */
+.social{
+    background: rgb(9, 211, 177);
+    text-align: center;
+    padding: 20px 0;
+}
+.social i{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.social i:hover{
+    margin-right: 20px;
+    color: rgb(28, 44, 75);
+    font-size: 20px;
+    cursor: pointer;
+}
+.social i:last-child{
+    margin-right: 0;
+}
+/* footer */
+.footer{
+    text-align: center;
+    background: #000;
+    color: #ddd;
+    margin-bottom: 0;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.footer{}
